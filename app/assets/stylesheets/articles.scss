@@ -1,0 +1,42 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.my-navbar {
+  height: 45px;
+  margin: 0;
+  background-color: #F8F8F8;
+  border-color: #e7e7e7;
+  color: #7f7f7f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #cecece;
+}
+
+.my-navbar a {
+  color: #7f7f7f;
+}
+
+.my-container {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.my-card {
+  box-shadow: 5px 5px 15px lightgrey;
+  border-radius: 5px;
+  margin-bottom: 15px;
+
+}
